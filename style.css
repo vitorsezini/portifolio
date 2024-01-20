@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Ubuntu:wght@300&display=swap');
+
+
+:root{
+    --cor-primaria: #1b3b54;
+    --cor-secundaria:#32516b;
+    --cor-terciaria: #496782;
+    --cor-quaternaria: #5f7d99;
+    --cor-quintenaria: #7693b0;
+    --cor-sextenaria: #ffffff;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-quintenaria);
+}
+
+.imagem__perfil{
+    width: 35%;
+    height: auto;
+    
+
+}
+
+.cabecalho{
+    padding: 3% 0 0 15%;
+
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap:100px;
+
+}
+
+.cabecalho__menu__icons{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--cor-quintenaria);
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding: 5% 15%;   
+    display: flex;   /*itens lado a lado */
+    align-items: center; /*alinhar no centro */
+    justify-content: space-between; /*separar itens*/
+    gap: 80px;
+
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.25rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.apresentacao__subtitulo{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.apresentacao__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--cor-primaria);
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid var(--cor-quintenaria);
+    font-size: 2rem;
+    padding: 22px 10px;
+    text-decoration: none;
+    color: var(--cor-quintenaria);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+
+
+}
+
+.fa-brandsfa-github{
+    height: 40px;
+    height: 40px;
+}
+
+.apresentacao__links__navegacao:hover{
+    background-color: var(--cor-secundaria);
+    transition: 0.7s;       
+}
+
+
+.apresentacao__links__navegacao:hover .fa-linkedin{
+    color: var(--cor-quintenaria);
+}
+
+.rodape{
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-quintenaria);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1300px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+
+    .apresentacao{
+        padding: 5%;
+        flex-direction: column-reverse;
+
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
