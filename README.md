@@ -1,6 +1,6 @@
 ```
 
-# Portfólio Olá, Bem vindo ao meu projeto de portfólio.
+# Portfólio
 
 ## Ferramentas utilizadas:
 
@@ -10,8 +10,6 @@
 
 * Flex-box
 
-## Feito por:
-
-### Vitor Sezini
+## Feito por: Vitor Sezini Boni
 
 ### Linkedin:
