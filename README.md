@@ -1,5 +1,3 @@
-```
-
 # Portfólio
 
 ## Ferramentas utilizadas:
